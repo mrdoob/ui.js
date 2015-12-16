@@ -1,0 +1,22 @@
+{
+  "name": "ui.js",
+  "version": "0.0.1",
+  "description": "Javascript UI library",
+  "main": "src/ui.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mrdoob/ui.js.git"
+  },
+  "keywords": [
+    "ui"
+  ],
+  "author": "Mr.doob <info@mrdoob.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mrdoob/ui.js/issues"
+  },
+  "homepage": "https://github.com/mrdoob/ui.js"
+}
