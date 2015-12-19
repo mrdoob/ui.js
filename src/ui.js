@@ -807,10 +807,8 @@ UI.Number.prototype.setValue = function ( value ) {
 
 		value = parseFloat( value );
 
-		if ( value < this.min )
-			value = this.min;
-		if ( value > this.max )
-			value = this.max;
+		if ( value < this.min ) value = this.min;
+		if ( value > this.max ) value = this.max;
 
 		this.value = value;
 		this.dom.value = value.toFixed( this.precision );
